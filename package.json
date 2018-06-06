@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-strudel",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A babel preset for building Strudel.js",
   "author": "Mateusz Łuczak <mateusz.luczak@outlook.com>",
   "license": "MIT",
@@ -14,8 +14,8 @@
     "strudel"
   ],
   "dependencies": {
-    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",    
     "babel-preset-env": "^1.7.0"
   }
 }
