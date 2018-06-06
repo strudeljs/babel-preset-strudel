@@ -6,6 +6,6 @@ A babel preset for building Strudel.js projects
 
 ```
 {
-    presets: ["strudel]
+    presets: ["strudel"]
 }
 ```
