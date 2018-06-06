@@ -1,2 +1,11 @@
 # babel-preset-strudel
-Preset for Babel
+
+A babel preset for building Strudel.js projects
+
+## Usage
+
+```
+{
+    presets: ["strudel]
+}
+```
