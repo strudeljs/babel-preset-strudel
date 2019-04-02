@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = () => ({
     presets: ["@babel/preset-env"],
     plugins: [
         [
@@ -10,4 +10,4 @@ module.exports = {
             { loose: true },
         ],
     ],
-}
+})
