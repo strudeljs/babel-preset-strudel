@@ -1,7 +1,13 @@
-module.exports = {
-    presets: ["env"],
+module.exports = () => ({
+    presets: ["@babel/preset-env"],
     plugins: [
-        "transform-decorators-legacy",
-        "transform-class-properties"
-    ]
-}
+        [
+            "@babel/plugin-proposal-decorators",
+            { legacy: true },
+        ],
+        [
+            "@babel/plugin-proposal-class-properties",
+            { loose: true },
+        ],
+    ],
+})
