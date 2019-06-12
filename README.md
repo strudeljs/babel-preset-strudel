@@ -9,3 +9,7 @@ A babel preset for building Strudel.js projects
     presets: ["strudel"]
 }
 ```
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
